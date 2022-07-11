@@ -1,1 +1,1 @@
-# scripts-to-protein-residue-annotations
+# Scripts-to-protein-residue-annotations
