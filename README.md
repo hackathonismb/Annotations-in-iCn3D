@@ -13,7 +13,7 @@ Table of Contents
 ## Methodology 
 
 ## Team members
-Jiyao Wang (Team Lead)
-Raphael Trevizani (Writer)
-Sachendra Kumar 
+Jiyao Wang (Team Lead) <br>
+Raphael Trevizani (Writer) <br>
+Sachendra Kumar <br>
 Li Chuin Chong
