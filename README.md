@@ -53,4 +53,5 @@ Annotator:
 Jiyao Wang (Team Lead) <br>
 Li Chuin Chong (Writer) <br>
 Sachendra Kumar (Writer) <br>
-Raphael Trevizani 
+Raphael Trevizani <br> 
+Jack Lin
