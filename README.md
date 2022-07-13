@@ -33,7 +33,7 @@ by Sachendra Kumar, Jiyao Wang
   For more details, please visit the [`interaction` sub-directory](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/tree/main/interactions).
   
 - Scrapper script for distance table: [iCn3D_scapper_forDistance.py](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/distance_table/iCn3D_scapper_forDistance.py) <br>
-  Example output: distance_table_7JMO.csv(https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/distance_table/distance_table_7JMO.csv) <br>
+  Example output: [distance_table_7JMO.csv](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/distance_table/distance_table_7JMO.csv) <br>
   For more details, please visit the [`distance_table` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/distance_table).
 
 ### Novel annotation to iCn3D - PTMs & 3D domain
