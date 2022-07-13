@@ -52,7 +52,7 @@ Annotator:
 ## Team members
 Jiyao Wang (Team Lead) <br>
 Li Chuin Chong (Writer) <br>
-Sachendra Kumar <br>
+Sachendra Kumar (Writer) <br>
 Raphael Trevizani <br> 
 David Enoma <br>
 Jack Lin 
