@@ -30,7 +30,8 @@ by Sachendra Kumar, Jiyao Wang
 ### iCn3D scrapper for existing information - interactions and distance table
 - Scrapper script for interactions: [download_interactions.py](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/tree/main/interactions) <br>
   Example output: <br>
-  For more details, please visit the `interaction` sub-directory.
+  For more details, please visit the [`interaction` sub-directory](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/tree/main/interactions).
+  
 - Scrapper script for distance table: [iCn3D_scapper_forDistance.py] <br>
   Example output: <br>
   For more details, please visit the `distance-table` sub-directory.
@@ -39,6 +40,7 @@ by Sachendra Kumar, Jiyao Wang
 - Annotator script for PTMs: [PTMsite_annotation_inputfile_prep.py](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/blob/main/PTM_annotation/PTMsite_annotation_inputfile_prep.py) <br>
   Example output:  <br>
   For more details, please visit the `PTM_annotation` sub-directory.
+  
 - Annotator script for 3D domain: [annotation.js](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/blob/main/nodejs/annotation.js) <br>
   Example output: <br>
   For more details, please visit the `domain_annotation` sub-directory.
