@@ -36,7 +36,7 @@ Annotator - PTMs <br>
 by Jiyao Wang, Raphael Trevizani, Li Chuin Chong <br>
 In order to download 3d domain, interactions and distance table automatically from UI, a node.js is created for former annotation while two python scripts are created for latter annotations using selenium and chromedriver.   
 
-### Novel annotation to iCn3D - PTMs
+### Novel annotation to iCn3D - PTMs <br>
 by Sachendra Kumar
 The input PTMs files were prepared using the downloaded PTMs sites information for Acetylation, Methylation, Phosphorylations, Sumoylation, and Ubiquitination from PhosphoSitePlus database using python script. 
 For example, Header: UniprotId,PTMaa,PTMpos,Metadata and its associated  data Data: Q12888,T,100,https://www.phosphosite.org/siteAction.action?id=31887780For proof of the concept, we did custom annotation for PTMs in iCn3D for user input based annotation.
