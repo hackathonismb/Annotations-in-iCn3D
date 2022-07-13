@@ -28,18 +28,18 @@ by Sachendra Kumar, Jiyao Wang
 
 ## Result
 ### iCn3D scrapper for existing information - interactions and distance table
-- Scrapper script for interactions: [download_interactions.py](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/tree/main/interactions) <br>
-  Example output: <br>
+- Scrapper script for interactions: [download_interactions.py](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/interactions/download_interactions.py) <br>
+  Example output: [1enh_line_graph.json](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/interactions/1enh_line_graph.json) <br>
   For more details, please visit the [`interaction` sub-directory](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/tree/main/interactions).
   
-- Scrapper script for distance table: [iCn3D_scapper_forDistance.py] <br>
-  Example output: <br>
-  For more details, please visit the `distance-table` sub-directory.
+- Scrapper script for distance table: [iCn3D_scapper_forDistance.py](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/distance_table/iCn3D_scapper_forDistance.py) <br>
+  Example output: distance_table_7JMO.csv(https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/distance_table/distance_table_7JMO.csv) <br>
+  For more details, please visit the [`distance_table` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/distance_table).
 
 ### Novel annotation to iCn3D - PTMs & 3D domain
-- Annotator script for PTMs: [PTMsite_annotation_inputfile_prep.py](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/blob/main/PTM_annotation/PTMsite_annotation_inputfile_prep.py) <br>
-  Example output:  <br>
-  For more details, please visit the `PTM_annotation` sub-directory.
+- Annotator script for PTMs: [PTMsite_annotation_inputfile_prep.py](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/PTM_annotation/PTMsite_annotation_inputfile_prep.py) <br>
+  Example output: [Processed_Phosphorylation.csv](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/PTM_annotation/Processed_Phosphorylation.csv) <br>
+  For more details, please visit the [`PTM_annotation` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/PTM_annotation).
   
 - Annotator script for 3D domain: [annotation.js](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/blob/main/nodejs/annotation.js) <br>
   Example output: <br>
