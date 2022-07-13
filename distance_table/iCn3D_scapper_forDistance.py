@@ -5,6 +5,8 @@
 # Last update: 13 July 2022                                            #
 ########################################################################
 
+# pip3 install lxml
+
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
@@ -38,20 +40,34 @@ browser.find_element(By.ID, "ui-id-371").click() # among many sets
 first_set = browser.find_element(By.ID, "div0_atomsCustomDistTable2")
 for first_option_set in first_set.find_elements(by=By.TAG_NAME, value='option')[0:]:
     ActionChains(browser).key_down(Keys.CONTROL).click(first_option_set).key_up(Keys.CONTROL).perform()
-    
+
 # select all options in second set
 second_set = browser.find_element(By.ID, "div0_atomsCustomDistTable")
 for second_option_set in second_set.find_elements(by=By.TAG_NAME, value='option')[1:]:
     ActionChains(browser).key_down(Keys.CONTROL).click(second_option_set).key_up(Keys.CONTROL).perform()
 
-# click 
+# click button "distances in table"
 browser.find_element(By.ID, "div0_applydisttable").click()
 
-distance_table = browser.find_element(By.ID, "div0_dl_disttable")
-with open('distance_table_'+target_pdb_id+'.csv', 'w', newline='', encoding='utf-8') as csvfile:
-    wr = csv.writer(csvfile)
-    for row in distance_table.find_elements(by=By.CSS_SELECTOR, value='tr'):
-        wr.writerow([d.text for d in row.find_elements(by=By.CSS_SELECTOR, value='td')])
+# read HTML table as dataframe
+webtable_df = pd.read_html(browser.find_element(By.ID, "div0_dl_disttable").get_attribute('outerHTML'))[0]
+
+# rename all column name by remove the 'Amstrong' symbol
+for col in webtable_df.columns:
+    webtable_df.rename(columns={col:col.replace(' (Å)','')},inplace=True)
+    
+# rename first column
+mapping = {webtable_df.columns[0]: 'set'}
+webtable_df.rename(columns=mapping,inplace=True)
+
+# rename set name of first column
+webtable_df['set'] = webtable_df['set'].apply(lambda x : x.replace(' (Å)',''))
+
+# set 'set' or first column as index
+webtable_df.set_index('set', inplace=True)
+
+# export to csv
+webtable_df.to_csv('distance_table_'+target_pdb_id+'.csv')
                 
 # Closes the current window
 browser.close()
