@@ -41,17 +41,17 @@ by Sachendra Kumar, Jiyao Wang
   Example output: [Processed_Phosphorylation.csv](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/PTM_annotation/Processed_Phosphorylation.csv) <br>
   For more details, please visit the [`PTM_annotation` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/PTM_annotation).
   
-- Annotator script for 3D domain: [annotation.js](https://github.com/hackathonismb/scripts-to-protein-residue-annotations/blob/main/nodejs/annotation.js) <br>
+- Annotator script for 3D domain: [annotation.js](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/3d_domain_annotation/annotation.js) <br>
   Example output: <br>
-  For more details, please visit the `domain_annotation` sub-directory.
+  For more details, please visit the [`3d_domain_annotation` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/3d_domain_annotation).
 
 ## Next steps 
 Scrapper: expand this functionality to all other menus <br>
 Annotator: 
 
 ## Team members
-Jiyao Wang (Team Lead) <br>
-Li Chuin Chong (Writer) <br>
-Sachendra Kumar (Writer) <br>
-Raphael Trevizani <br> 
+Jiyao Wang (Team Lead), National Center for Biotechnology Information (NCBI), USA <br>
+Li Chuin Chong (Writer), TWINCORE GmbH, Germany <br>
+Sachendra Kumar (Writer), Indian Institute of Science, India <br>
+Raphael Trevizani, IEDB and Fiocruz, Brazil <br> 
 Jack Lin
