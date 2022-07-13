@@ -11,9 +11,10 @@ Table of Contents
 - [Result](#result)
 - [Next steps](#next-steps)
 - [Team members](#team-members)
+- [Found a bug](#found-a-bug)
 
 ## Introduction
-iCn3D is a web-based molecular structure visualizing interactive tool, which can also be accessed programmatically using NodeJS script. There are a few protein annotations available in the current version of iCn3D, such as SNPs, ClinVar, conserved domains, functional sites, 3D domains, interactions, disulfide bonds and cross linkages. In order to extracting the result for a large set of 3D structure, users can use either Python or Node.js scripts. Hence, we focus on creating some user-friendly python/node.js scripts to ease running a bulk analysis. Additionally, novel PTMs annotation is now added to improve the protein annotation function in iCn3D. 
+[iCn3D (https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html)](https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html) is a web-based molecular structure visualizing interactive tool, which can also be accessed programmatically using NodeJS script. There are a few protein annotations available in the current version of iCn3D, such as SNPs, ClinVar, conserved domains, functional sites, 3D domains, interactions, disulfide bonds and cross linkages. In order to extracting the result for a large set of 3D structure, users can use either Python or Node.js scripts. Hence, we focus on creating some user-friendly python/node.js scripts to ease running a bulk analysis. Additionally, novel PTMs annotation is now added to improve the protein annotation function in iCn3D. 
 
 ## Methodology
 ### Workflow
@@ -70,3 +71,7 @@ Li Chuin Chong (Writer), TWINCORE GmbH, Germany <br>
 Sachendra Kumar (Writer), Indian Institute of Science, India <br>
 Raphael Trevizani, IEDB and Fiocruz, Brazil <br> 
 Jack Lin
+
+## Found a bug?
+Or would like a feature added? Or maybe drop some feedback?
+Just [open a new issue](https://github.com/hackathonismb/Annotations-in-iCn3D/issues/new). 
