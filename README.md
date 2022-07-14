@@ -30,7 +30,7 @@ Scrapper - From UI to Data
 ![image](https://user-images.githubusercontent.com/51225708/178837175-6a24bd4c-b2a4-4351-84ea-57ccc56f57a2.png)
 
 Annotator - PTMs <br>
-![image](https://user-images.githubusercontent.com/51225708/178837410-34b1128f-5f7a-4be9-bc5b-9d49967f7910.png)
+![image](https://user-images.githubusercontent.com/68149052/179038737-1b808163-1a6c-40f4-b27e-1bedf923233f.png)
 
 ### iCn3D scrapper for existing information - 3d domain, interactions and distance table
 by Jiyao Wang, Raphael Trevizani, Li Chuin Chong <br>
@@ -63,7 +63,7 @@ For example, Header: UniprotId,PTMaa,PTMpos,Metadata and its associated  data Da
 
 ## Next steps 
 Scrapper: expand this functionality to all other menus <br>
-Annotator: implementing the PTMS annotation using node.js script-based user interface and adding novel annotations, such as somatic mutations (COSMIC database), other PTMs Glycosylation, Succinylations, and automating using REST API user interface.
+Annotator: implementing the PTMS annotation using node.js script-based user interface and adding novel annotations, such as somatic mutations (COSMIC database), other PTMs Glycosylation, Succinylation, and automating using REST API user interface.
 
 ## Team members
 Jiyao Wang (Team Lead), National Center for Biotechnology Information (NCBI), USA <br>
