@@ -39,7 +39,7 @@ In order to download 3d domain, interactions and distance table automatically fr
 ### Novel annotation to iCn3D - PTMs <br>
 by Sachendra Kumar
 The input PTMs files were prepared using the downloaded PTMs sites information for Acetylation, Methylation, Phosphorylations, Sumoylation, and Ubiquitination from PhosphoSitePlus database using python script. 
-For example, Header: UniprotId,PTMaa,PTMpos,Metadata and its associated  data Data: Q12888,T,100,https://www.phosphosite.org/siteAction.action?id=31887780For proof of the concept, we did custom annotation for PTMs in iCn3D for user input based annotation.
+For example, Header: UniprotId,PTMaa,PTMpos,Metadata and its associated  data Data: Q12888,T,100,https://www.phosphosite.org/siteAction.action?id=31887780 For proof of the concept, we did custom annotation for PTMs in iCn3D for user input based annotation.
 
 ## Result
 ### iCn3D scrapper for existing information - 3d domain, interactions and distance table
@@ -59,11 +59,11 @@ For example, Header: UniprotId,PTMaa,PTMpos,Metadata and its associated  data Da
 - Annotator script for PTMs: [PTMsite_annotation_inputfile_prep.py](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/PTM_annotation/PTMsite_annotation_inputfile_prep.py) <br>
   Example output: [Processed_Phosphorylation.csv](https://github.com/hackathonismb/Annotations-in-iCn3D/blob/main/PTM_annotation/Processed_Phosphorylation.csv) <br>
   For more details, please visit the [`PTM_annotation` sub-directory](https://github.com/hackathonismb/Annotations-in-iCn3D/tree/main/PTM_annotation). <br>
-  For the preliminary study, we processed PTMs annotation sites for Acetylation (48279), Methylation (20554), Phosphorylations (378481), Sumoylation (8832), and Ubiquitination (126051) to annotate in iCn3D using node.js script.
+  For the preliminary study, we processed PTMs annotation sites for Acetylation (48279), Methylation (20554), Phosphorylation (378481), Sumoylation (8832), and Ubiquitination (126051)  to annotate/display in iCn3D using node.js script based user interface.
 
 ## Next steps 
 Scrapper: expand this functionality to all other menus <br>
-Annotator: implementing the PTMS annotation using node.js script and add novel annotations, such as somatic mutations (COSMIC database), PTMs Glycosylation, Succinylations, and automating using REST API interface.
+Annotator: implementing the PTMS annotation using node.js script-based user interface and adding novel annotations, such as somatic mutations (COSMIC database), other PTMs Glycosylation, Succinylations, and automating using REST API user interface.
 
 ## Team members
 Jiyao Wang (Team Lead), National Center for Biotechnology Information (NCBI), USA <br>
