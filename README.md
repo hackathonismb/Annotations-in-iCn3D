@@ -70,6 +70,7 @@ Jiyao Wang (Team Lead), National Center for Biotechnology Information (NCBI), US
 Li Chuin Chong (Writer), TWINCORE GmbH, Germany <br>
 Sachendra Kumar (Writer), Indian Institute of Science, India <br>
 Raphael Trevizani, IEDB and Fiocruz, Brazil <br> 
+David Enoma (Technology Support), Noma Integrated Technology Solutions, Nigeria. <br>
 Jack Lin
 
 ## Found a bug?
